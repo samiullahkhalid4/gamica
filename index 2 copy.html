@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Learn Javascript</title>
+    <style>
+        .parrent {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .myP {
+            background-color: brown;
+            /* width: 100px; */
+            height: 100px;
+            flex-grow: 1;
+            border: 5px solid #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .myP:nth-child(2) {
+            flex-grow: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parrent">
+        <div class="myP">
+            <span>Apple</span>
+        </div>
+        <div class="myP">
+            <span>Banana</span>
+        </div>
+        <div class="myP">
+            <span>Carrot</span>
+        </div>
+    </div>
+</body>
+
+</html>
